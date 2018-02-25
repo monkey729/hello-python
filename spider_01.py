@@ -15,4 +15,3 @@ print(r.headers['content-type'])
 print(r.encoding)
 # 返回html内容
 print(r.text)
-print
