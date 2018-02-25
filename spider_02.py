@@ -4,7 +4,7 @@ import sys
 from bs4 import BeautifulSoup
 
 """
-下载网络小说《一念永恒》
+下载网络小说《大主宰》
 """
 
 
@@ -66,9 +66,9 @@ class downloader(object):
 if __name__ == '__main__':
     dl = downloader()
     dl.get_download_url()
-    print("《一念永恒》开始下载：")
+    print("《大主宰》开始下载：")
     for i in range(dl.nums):
         dl.writer(dl.names[i], "大主宰.txt", dl.get_contents(dl.urls[i]))
         sys.stdout.write("  已下载:%.2f%%" % float(i/dl.nums*100) + '\r')
         sys.stdout.flush()
-    print("《一念永恒》下载完成！")
+    print("《大主宰》下载完成！")
