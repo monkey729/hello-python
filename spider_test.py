@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import os
 import time
 
-url = 'http://bbs.1024v3.pw/pw/htm_data/14/1805/1148962.html'
+url = 'http://bbs.1024v3.pw/pw/htm_data/14/1805/1151090.html'
 
 
 def download_jpg(pic_url):
